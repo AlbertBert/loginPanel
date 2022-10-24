@@ -1,0 +1,84 @@
+.login-panel {
+  width: 400px;
+  height: 320px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  padding-top: 25px;
+}
+
+.title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.username-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.username-label {
+  width: 50px;
+  margin-left: 42px;
+  margin-right: 20px;
+  text-align: right;
+  color: #fff;
+}
+
+.password-label {
+  width: 50px;
+  margin-left: 42px;
+  margin-right: 20px;
+  text-align: right;
+  color: #fff;
+}
+
+.username-input {
+  width: 200px;
+}
+
+.password-input {
+  width: 200px;
+}
+
+.login {
+  width: 100px;
+  margin-bottom: 20px;
+  background-color: rgb(208, 40, 100);
+  border: none;
+}
+
+.login:hover {
+  background-color: rgb(208, 40, 100);
+}
+
+.login:focus {
+  background-color: rgb(208, 40, 100);
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.register {
+  color: rgb(208, 40, 100);
+  cursor: pointer;
+}
+
+body {
+  background: url('./assets/bg.jpeg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
